@@ -1,9 +1,16 @@
-# Build for arm32v7 platforms
+# Dockerfile to build an arm32v7 image on an x86 build host
 
-FROM arm32v7/node
+FROM resin/raspberrypi3-node
+# Resin base image required for cross-build capabilities
+
+### Run commands within QEMU ARM cross-build emulation
+RUN [ "cross-build-start" ]
 
 RUN npm install -g sonos-web-cli
 RUN sonos-web install
+
+RUN [ "cross-build-end" ]
+### End QEMU ARM emulation
 
 EXPOSE 5050
 
