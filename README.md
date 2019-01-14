@@ -31,5 +31,5 @@ docker run -d \
 
 ## Links
 
-[1] https://github.com/Villarrealized/sonos-web
+[1] https://github.com/Villarrealized/sonos-web \
 [2] https://hub.docker.com/r/resin/rpi-raspbian
