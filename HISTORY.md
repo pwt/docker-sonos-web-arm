@@ -1,1 +1,2 @@
+- 2019-01-29: Update for 0.7.1
 - 2019-01-14: Force image update
