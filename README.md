@@ -11,7 +11,7 @@ It has so far been tested on the following Raspberry Pi models:
 
 In order to build for ARM on Docker Hub, the Dockerfile makes use of the *crossbuild* capabilities provided by the Resin Raspbian distribution [2], which allows ARM images to be built under x86. (If you want to use this Dockerfile to build directly on a native ARM device, comment out or delete the two `cross-build` RUN statements.)
 
-The docker image name is `psychlist/docker-sonos-web-arm` on Docker Hub.
+The docker image name is `psychlist/docker-sonos-web-arm` on Docker Hub [3].
 
 ## Requirements
 
@@ -32,4 +32,5 @@ docker run -d \
 ## Links
 
 [1] https://github.com/Villarrealized/sonos-web \
-[2] https://hub.docker.com/r/resin/rpi-raspbian
+[2] https://hub.docker.com/r/resin/rpi-raspbian \
+[3] https://cloud.docker.com/repository/docker/psychlist/docker-sonos-web-arm
