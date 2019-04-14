@@ -33,4 +33,4 @@ docker run -d \
 
 [1] https://github.com/Villarrealized/sonos-web \
 [2] https://hub.docker.com/r/resin/rpi-raspbian \
-[3] https://cloud.docker.com/repository/docker/psychlist/docker-sonos-web-arm
+[3] https://hub.docker.com/r/psychlist/docker-sonos-web-arm
