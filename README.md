@@ -31,7 +31,7 @@ docker run -d \
   
 To update the container to the latest version, first pull the new image, then stop & restart the container:
 
-``
+```
 docker pull psychlist/docker-sonos-web-arm
 docker rm --force sonos-web
 docker run -d \
